@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Jason Culbertson">
+    <title>Contact - Jason Culbertson</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg site-nav">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">JTC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="signin.html">Sign In</a></li>
+                <li class="nav-item"><a class="nav-link btn-signup" href="signup.html">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="main-content">
+
+    <h1 class="page-heading">Contact Me</h1>
+
+    <p>Feel free to reach out if you have a project idea, a collaboration opportunity, or just want to connect. You can also email me directly at <a href="mailto:jasontculbertson@gmail.com">jasontculbertson@gmail.com</a>.</p>
+
+    <p>I'm based in Moscow, Idaho while I finish my degree, but I'm open to remote work and internship opportunities anywhere in the US.</p>
+
+    <hr class="divider">
+
+    <div class="two-column">
+        <div class="col-main">
+            <h2 class="section-title">Send a Message</h2>
+
+            <form class="contact-form" action="#" method="post">
+
+                <label for="c-fname">First Name</label>
+                <input type="text" id="c-fname" name="first_name" placeholder="Jane" required>
+
+                <label for="c-lname">Last Name</label>
+                <input type="text" id="c-lname" name="last_name" placeholder="Doe" required>
+
+                <label for="c-email">Email Address</label>
+                <input type="email" id="c-email" name="email" placeholder="jane@example.com" required>
+
+                <label for="c-subject">Subject</label>
+                <input type="text" id="c-subject" name="subject" placeholder="Collaboration inquiry">
+
+                <label for="c-message">Message</label>
+                <textarea id="c-message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+
+                <button type="submit" class="btn-submit">Send Message</button>
+
+            </form>
+        </div>
+
+        <div class="col-side">
+            <h2 class="section-title">My Location</h2>
+
+            <p>
+                <strong>University of Idaho</strong><br>
+                875 Perimeter Dr<br>
+                Moscow, ID 83844
+            </p>
+
+            <!-- google map -->
+            <div class="map-box">
+                <iframe
+                    src="https://maps.google.com/maps?q=University+of+Idaho,+Moscow,+ID&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    title="University of Idaho on Google Maps"
+                    allowfullscreen
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="site-footer">
+    <ul class="footer-links">
+        <li><a href="terms.html">Terms and Conditions</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="cookies.html">Cookie Policy</a></li>
+    </ul>
+    <p class="footer-text">&copy; 2026 Jason Culbertson</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

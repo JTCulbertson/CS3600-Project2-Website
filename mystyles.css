@@ -1,0 +1,365 @@
+/* general reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Navigation ===== */
+
+.site-nav {
+    background-color: #003399 !important;
+    border-bottom: 3px solid #002277;
+}
+
+.site-nav .navbar-brand {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.site-nav .nav-link {
+    color: #ccddff !important;
+    font-size: 15px;
+    padding: 6px 12px !important;
+}
+
+.site-nav .nav-link:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+/* highlight the current page link */
+.site-nav .nav-link.active {
+    color: #ffff00 !important;
+    font-weight: bold;
+}
+
+/* signup button - I wanted it to look different from the other links */
+.btn-signup {
+    background-color: #ffffff !important;
+    color: #003399 !important;
+    font-weight: bold !important;
+    border-radius: 4px !important;
+    padding: 5px 14px !important;
+}
+
+.btn-signup:hover {
+    background-color: #e0e8ff !important;
+}
+
+.btn-signup.active {
+    background-color: #ffff00 !important;
+    color: #003399 !important;
+}
+
+/* ===== Main Content Box ===== */
+
+/* center the page and give it a white background */
+.main-content {
+    max-width: 900px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #cccccc;
+}
+
+.page-heading {
+    color: #003399;
+    font-size: 28px;
+    border-bottom: 2px solid #003399;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    color: #003399;
+    font-size: 20px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+/* ===== Cards ===== */
+
+.info-card {
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    color: #003399;
+    font-size: 16px;
+    margin: 0 0 6px 0;
+}
+
+/* ===== Profile Picture ===== */
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #003399;
+    display: block;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+/* ===== Skill Tags ===== */
+
+.skill-tag {
+    display: inline-block;
+    background-color: #e8f0fe;
+    color: #003399;
+    border: 1px solid #aabbee;
+    padding: 2px 10px;
+    font-size: 13px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+/* ===== Project Table ===== */
+
+.projects-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.projects-table th {
+    background-color: #003399;
+    color: #ffffff;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.projects-table td {
+    padding: 10px 12px;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+/* stripe the rows */
+.projects-table tbody tr:nth-child(even) td {
+    background-color: #f5f7ff;
+}
+
+/* ===== Links ===== */
+
+.link-blue {
+    color: #0033cc;
+}
+
+.link-blue:hover {
+    color: #0000ff;
+}
+
+/* ===== Forms ===== */
+
+.form-box {
+    background-color: #f9f9f9;
+    border: 1px solid #cccccc;
+    padding: 25px;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 14px;
+    margin-bottom: 4px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+    border-color: #003399;
+    outline: 1px solid #003399;
+}
+
+/* ===== Buttons ===== */
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    background-color: #003399;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-top: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-submit:hover {
+    background-color: #002277;
+    color: #ffffff;
+}
+
+/* ===== Google Map ===== */
+
+.map-box {
+    border: 2px solid #cccccc;
+    margin-top: 15px;
+}
+
+.map-box iframe {
+    display: block;
+    width: 100%;
+    height: 350px;
+    border: none;
+}
+
+/* ===== Footer ===== */
+
+.site-footer {
+    background-color: #003399;
+    color: #ffffff;
+    padding: 18px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 8px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #ccddff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-text {
+    color: #aabbdd;
+    font-size: 12px;
+    margin: 0;
+}
+
+/* ===== Policy Pages ===== */
+
+.policy-content h2 {
+    color: #003399;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.policy-content h3 {
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+
+.policy-content p,
+.policy-content li {
+    color: #444444;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.policy-content ol,
+.policy-content ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* ===== Misc ===== */
+
+.text-gray {
+    color: #555555;
+    font-size: 14px;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 20px 0;
+}
+
+/* ===== Layout ===== */
+
+.two-column {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.col-main {
+    flex: 2;
+    min-width: 280px;
+}
+
+.col-side {
+    flex: 1;
+    min-width: 220px;
+}
+
+.three-columns {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.three-columns .info-card {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* make it work on small screens */
+@media (max-width: 600px) {
+    .main-content {
+        margin: 10px;
+        padding: 18px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
